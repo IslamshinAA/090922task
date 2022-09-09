@@ -54,7 +54,7 @@ for (int i = 0; i < n; i++)
 {
     count++;
     Console.Write(" " + count);
-    if (count >= 3)
+    if (count >= n)
     {
         max = count;
         max1 = max - 1;
