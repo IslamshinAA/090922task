@@ -35,3 +35,39 @@
 //     array[i] = n;
 // }
 // Console.WriteLine("[" + string.Join(", ", array) + "]");
+
+// доп задача 
+//4
+//1 2 3 4     // вывод  9 
+
+
+// Console.WriteLine("Введите количество грядок, начиная с трех: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// if (n >= 3 && n <= 1000)
+// { 
+// int count = 0;
+// int max = 0;
+// int max1 = 0;
+// int max2 = 0;
+// int result = 0;
+// for (int i = 0; i < n; i++)
+// {
+//     count++;
+//     Console.Write(" " + count);
+//     if (count >= 3)
+//     {
+//         max = count;
+//         max1 = max - 1;
+//         max2 = max - 2;
+       
+//     }
+//     if (count < 3 && count > 1000)
+//         Console.WriteLine("Не верный ввод");
+// }
+// result = max + max1 + max2;
+// Console.WriteLine("  |  " + result);
+// }
+// else 
+//     Console.WriteLine("Введите количество грядок, начиная с трех и небольше 1000: ");
+    
+
